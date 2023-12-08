@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ThinkNodes - About Us</title>
+        <title>Rydr - About Us</title>
         <meta name="description" content="We Are the Future of Artificial Intelligence" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -37,36 +37,34 @@ export default function Home() {
             <Image h={{
               md: '100% !important',
               sm: '400px !important',
-            }}  src='about1.jpeg' alt='About thinknodes' />
+            }}  src='about1.jpeg' alt='About Rydr' />
           </GridItem>
           <GridItem colSpan={1}>
             <Heading mb={4}>
-              Mission and Values
+              Our Mission
             </Heading>
             <Text>
-              At ThinkNodes, our mission is to harness the power of artificial intelligence to transform industries and enhance lives. We&rsquo;re committed to pushing the boundaries of innovation, developing cutting-edge AI solutions that drive progress and solve complex challenges.
-            </Text>
-            <Text>
-              Our core values of integrity, creativity, inclusivity, and ethical AI development guide us in creating a future where AI benefits all, fostering trust and reliability in our technology.
+            At Rydr, our mission is to revolutionize transportation by providing a seamless, safe, and reliable ridesharing experience. We aim to empower communities, enhance accessibility, and foster a sense of trust among our users.
             </Text>
           </GridItem>
           <GridItem rowSpan={2} colSpan={1}>
             <Image h={{
               md: '100% !important',
               sm: '400px !important',
-            }} src='about2.jpeg' alt='About thinknodes' />
+            }} src='about2.jpeg' alt='About Rydr' />
           </GridItem>
           <GridItem colSpan={1}>
             <Heading mb={4}>
-              History
+              Our Core Values
             </Heading>
             <Text>
-              Founded with a vision for innovation, Thinknodes has a rich history of pioneering advancements in artificial intelligence.
-              From our humble beginnings, we&rsquo;ve relentlessly pursued cutting-edge solutions that empower businesses and individuals.
+            We are committed to delivering dependable transportation solutions, ensuring riders can rely on us for prompt and trustworthy service every time.
             </Text>
             <Text>
-              With a legacy of breakthroughs, we continue to shape the future of AI, driving progress, and transforming industries. Join us on a journey through our storied history, where innovation meets limitless possibilities.
+            Safety is non-negotiable. We prioritize the well-being of our community, implementing stringent safety measures and continuous improvements to guarantee secure journeys.
             </Text>
+            <Text>We believe in creating an inclusive platform accessible to all, providing convenient transportation options to connect people, places, and experiences.</Text>
+            <Text>Embracing innovation is at our core. We continuously evolve our technology and services to offer cutting-edge solutions that redefine the ridesharing experience.</Text>
           </GridItem>
         </Grid>
       </Container>
@@ -83,7 +81,7 @@ export default function Home() {
           base: 'wrap',
           md: 'nowrap',
         }}>
-          <Avatar w={'200px'} h={'200px'} src={'ceo.jpeg'} mx={{
+          <Avatar w={'200px'} h={'200px'} src={'https://netrobe.vercel.app/static/media/about-img.b0b8e3b77756c9309b88.jpg'} mx={{
             base: 'auto',
             md: '0'
           }} />
@@ -96,7 +94,7 @@ export default function Home() {
               md: 'left'
             }}>
               <Heading as={'h3'} fontSize={'2xl'} mb={4} className={style.founderHead}>
-                Akintunde Opaleye
+                Ayanwola Ayomide
               </Heading>
               <Text className={style.founderRole}>
                 Founder/CEO
@@ -106,8 +104,7 @@ export default function Home() {
               base: 'center',
               md: 'left'
             }}>
-              Akin, popularly known as &rdquo;Akin the Great&rdquo;, is an AI strategist and consultant who holds the position of CAIO for several innovative startups. Not only is he a thought leader in the AI arena, but he&rsquo;s also a dynamic voice on Instagram, where he regularly demystifies AI concepts and shares groundbreaking insights. Leveraging his vast experience in business development and cyber/cloud security engineering, Akin established ThinkNodes. With ThinkNodes, Akin&rsquo;s vision is to sculpt the future of Artificial Intelligence, crafting bespoke AI and automation solutions that empower businesses to streamline processes, boost profitability, and surge ahead in today&rsquo;s competitive landscape.
-            </Text>
+              I am a Full-Stack Engineer with extensive experience in Python, Golang, TypeScript, and JavaScript. I specialize in building reliable systems with a focus on software architecture, agile development, and developer operations. With my expertise in cloud architecture, I am adept at designing and deploying distributed systems, microservices, and Restful APIs on cloud infrastructures.</Text>
           </Box>
         </Flex>
       </Container>

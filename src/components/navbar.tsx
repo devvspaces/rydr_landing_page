@@ -23,7 +23,7 @@ export default function Navbar() {
         <Heading as={'h1'} size={{
           base: 'md',
           md: 'lg',
-        }}>THINKNODES</Heading>
+        }}>Rydr</Heading>
 
         <IconButton
           size={'md'}

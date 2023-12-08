@@ -45,10 +45,10 @@ export default function Footer() {
 
           <UnorderedList listStyleType={'none'} m={0} mb={6}>
             <ListItem fontSize={'14px'} display={'flex'} alignItems={'center'} gap={3} mb={2}>
-              <EmailIcon /> <Link href={'mailto:akin@thinknodes.com'}>akin@thinknodes.com</Link>
+              <EmailIcon /> <Link href={'mailto:akin@Rydr.com'}>akin@Rydr.com</Link>
             </ListItem>
             <ListItem fontSize={'14px'} display={'flex'} alignItems={'center'} gap={3}>
-              <EmailIcon /> <Link href={'mailto:ayomide@thinknodes.com'}>ayomide@thinknodes.com</Link>
+              <EmailIcon /> <Link href={'mailto:ayomide@Rydr.com'}>ayomide@Rydr.com</Link>
             </ListItem>
           </UnorderedList>
 
@@ -59,7 +59,7 @@ export default function Footer() {
                 <circle cx="17.8643" cy="17.5" r="17" stroke="#F3F3F3" />
               </svg>
             </Link>
-            <Link target={'_blank'} href={'https://www.instagram.com/thinknodes/'}>
+            <Link target={'_blank'} href={'https://www.instagram.com/Rydr/'}>
               <svg width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14.3154 23V14.9036H11.5287V23H14.3154ZM12.9224 13.7975C13.8941 13.7975 14.499 13.1758 14.499 12.3989C14.4809 11.6045 13.8942 11 12.9408 11C11.9876 11 11.3643 11.6045 11.3643 12.3989C11.3643 13.1759 11.969 13.7975 12.9042 13.7975H12.9223H12.9224ZM15.8578 23H18.6445V18.4786C18.6445 18.2366 18.6626 17.9949 18.7362 17.8219C18.9376 17.3384 19.3961 16.8377 20.1659 16.8377C21.1743 16.8377 21.5777 17.5802 21.5777 18.6686V22.9999H24.3643V18.3576C24.3643 15.8707 22.9895 14.7135 21.156 14.7135C19.6527 14.7135 18.9926 15.525 18.6259 16.0777H18.6445V14.9035H15.8578C15.8944 15.6632 15.8578 22.9998 15.8578 22.9998L15.8578 23Z" fill="white" />
                 <circle cx="17.8643" cy="17.5" r="17" stroke="#F3F3F3" />

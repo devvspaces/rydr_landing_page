@@ -1,4 +1,4 @@
-# ThinkNodes Website
+# Rydr Website
 
 ## Getting Started
 
