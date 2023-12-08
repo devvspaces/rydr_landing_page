@@ -1,0 +1,13 @@
+.testimonial {
+  border-radius: 8px;
+  border: 2px solid var(--grade-3, #18BED4);
+  max-width: 500px;
+}
+
+.testimonial p {
+  color: #A3A3A3;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136%;
+}

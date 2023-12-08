@@ -1,0 +1,90 @@
+.navbar {
+  border-radius: 8px;
+  border: 2px solid #1A95A6;
+  background: linear-gradient(90deg, rgba(24, 190, 212, 0.30) -19.93%, rgba(24, 190, 212, 0.17) 24.3%, rgba(24, 190, 212, 0.11) 95.03%, rgba(24, 190, 212, 0.00) 114.86%, rgba(24, 190, 212, 0.05) 114.86%);
+  height: 88px;
+  flex-shrink: 0;
+  padding: 1rem;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.navbar h1 {
+  color: #18BED4;
+  font-family: var(--font-ubuntu);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbarLinks {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.navbarLinks a {
+  color: #FFF;
+  font-family: var(--font-inter);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.navbarRight {
+  align-items: center;
+  gap: 58px;
+}
+
+.hamburgerIcon {
+  display: none !important;
+}
+
+@media (max-width: 800px) {
+  .navbarRight {
+    display: none !important;
+  }
+  .hamburgerIcon {
+    display: block !important;
+  }
+}
+
+.getStarted {
+  display: flex;
+  width: 180px !important;
+  height: 56px !important;
+  padding: 10px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px !important;
+  border-radius: 8px !important;
+  background: var(--grade-3, linear-gradient(90deg, #18BED4 -19.93%, rgba(24, 190, 212, 0.57) 24.3%, rgba(24, 190, 212, 0.38) 95.03%, rgba(24, 190, 212, 0.00) 114.86%, rgba(24, 190, 212, 0.18) 114.86%)) !important;
+  color: #FFF !important;
+  transform-origin: center !important;
+  transform-style: preserve-3d !important;
+}
+
+.getStarted:hover {
+  background: var(--grade-3, linear-gradient(90deg, #18BED4 -19.93%, rgba(24, 190, 212, 0.57) 24.3%, rgba(24, 190, 212, 0.38) 95.03%, rgba(24, 190, 212, 0.00) 114.86%, rgba(24, 190, 212, 0.18) 114.86%)) !important;
+  transform: scale(1.04);
+}
+
+.navbarLinks a {
+  text-decoration: none !important;
+}
+
+.navbarLinks a::after {
+  content: '';
+  width: 70%;
+  height: 2px;
+  background-color: #18BED4;
+  display: block;
+  margin-top: .2rem;
+  opacity: 0;
+  transition: .3s;
+}
+
+.navbarLinks a:hover::after {
+  opacity: 1;
+}

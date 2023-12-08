@@ -1,0 +1,20 @@
+.gradient1 {
+  position: absolute;
+  width: 1081.845px;
+  height: 1081.845px;
+  transform: rotate(-2.948deg);
+  border-radius: 1081.845px;
+  background: linear-gradient(229deg, #18BED4 10.83%, rgba(24, 190, 212, 0.18) 44.29%, rgba(24, 190, 212, 0.00) 68.14%);
+  top: -400px;
+  right: -400px;
+}
+
+.gradient2 {
+  width: 1440px;
+  height: 1434px;
+  border-radius: 1440px;
+  background: radial-gradient(76.9% 76.74% at 54.9% 54.22%, rgba(24, 190, 212, 0.28) 0%, rgba(24, 190, 212, 0.19) 0.01%, rgba(24, 190, 212, 0.00) 49.51%, rgba(24, 190, 212, 0.00) 80.76%, rgba(24, 190, 212, 0.00) 100%);
+  position: fixed;
+  top: 0;
+  left: -25%;
+}
